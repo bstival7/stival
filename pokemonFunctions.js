@@ -49,5 +49,16 @@ function randSentence() {
     return sentence;
 }
 
-console.log(randSentence());
+//Pokemon name, ATK, HP
+var pok1 = ["Gengar", 70, 100]
+var pok2 = ["Raichu",35, 180]
+
+//Function that makes pokemon 1 attack pokemon 2
+function tendoPain(){
+   var pain =  pok2[2] - pok1[1]
+   pok2[2] = pain
+   console.log("Raichu was hit and its' stats are " + pok2 )
+}
+
+tendoPain()
 
