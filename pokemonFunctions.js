@@ -50,6 +50,7 @@ function randSentence() {
 }
 
 //Pokemon name, ATK, HP
+//Code by:Aaron Coleman
 var pok1 = ["Gengar", 70, 100]
 var pok2 = ["Raichu",35, 180]
 
@@ -61,4 +62,3 @@ function tendoPain(){
 }
 
 tendoPain()
-
