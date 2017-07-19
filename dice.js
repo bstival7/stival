@@ -4,11 +4,11 @@
 
 //Gets input for the dice-sides & modifiers
 var prompt = require('prompt-sync')();
-var sides = prompt('How many sides on your side? i.e 4, 6, 8, 10, 12, 20. ');
+var sides = prompt('How many sides on your side? ');
 var mod = prompt('Input your modifier: ');
 
 function diceRoll(){
-    return(Math.floor(Math.random()*sides)+ 1 + mod);
+    return(Math.floor(Math.random()*sides)+ 1 + parseInt(mod));
 }
 
 console.log("You rolled a " + diceRoll() +"!");
