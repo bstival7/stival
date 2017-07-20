@@ -45,8 +45,8 @@ new Pokemon("Lucario", "Fighting/Steel", 70, 110, 70, false),
 new Pokemon("Abomasnow", "Grass/Ice", 90, 92, 75, false)]
 
 //Two Random Pokemon from the roster array
-var pokemon1 = roster[Math.floor(Math.random()*6)];
-var pokemon2 = roster[Math.floor(Math.random()*6)];
+var pokemon1 = roster[Math.floor(Math.random()*roster.length)];
+var pokemon2 = roster[Math.floor(Math.random()*roster.length)];
 
 //Function for calculating damage
 var dmg;
