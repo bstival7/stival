@@ -1,0 +1,20 @@
+body {background-color: skyblue; margin: 50px; font-family: "Comic Sans MS"; 
+    background-image: url('https://media.giphy.com/media/Pp9W9tuVF5NwQ/giphy.gif'); 
+    background-size: cover;}
+#youtube {display: -webkit-inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-flex-pack: center;
+  -webkit-justify-content: center;
+  -webkit-flex-align: center;
+  -webkit-align-items: center;
+  vertical-align: top; margin: 75px;}
+#twitter {display: inline;}
+h1 {text-align: center;}
+img {display: block; margin: auto; width: 50%; }
+#timeline {background-color: background-image: -webkit-gradient(linear, left top, left bottom, from(start-color), to(end-color));
+background-image: -webkit-linear-gradient(top, gold, powderblue);
+background-image: -moz-linear-gradient(top, gold, powderblue);
+background-image: linear-gradient(to bottom, gold, powderblue);}
