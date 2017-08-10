@@ -1,0 +1,87 @@
+html,body{
+    margin:0;
+    height:100%;
+}
+
+body{
+    background-image: url("https://newevolutiondesigns.com/images/freebies/galaxy-wallpaper-36.jpg");
+    background-size: cover;
+}
+
+h1{
+    /*GOOGLE FONTS*/
+    /*font-family: 'Asul', sans-serif;*/
+    /*font-family: 'Alike Angular', serif;*/
+    /*font-family: 'Eczar', serif;*/
+    font-family: 'Eczar', serif;
+    font-size: 45px;
+    margin: 25px auto -10px auto;
+    color: #e54ed0;
+    text-align: center;
+}
+.allMessages{
+    position:relative;
+    height:70%;
+    margin: 0 auto;
+    width: 60%;
+    border: 2px solid #44008b;
+    background-color: #ffe4f2;
+    overflow-y: scroll;
+    overflow-wrap: break-word;
+}
+
+.userContainer{
+    position:relative;
+    height: 15%;
+    margin: 20px auto 0 auto;
+    width: 40%;
+    border: 2px solid #44008b;
+    background-color: #ffe4f2;
+}
+
+
+.textContainer div p{
+    /*GOOGLE FONTS*/
+    /*font-family: 'Asul', sans-serif;*/
+    /*font-family: 'Alike Angular', serif;*/
+    /*font-family: 'Eczar', serif;*/
+    font-family: 'Asul', sans-serif;
+    font-size: 1em;
+    display: inline-flex;
+    width: 15%;
+    margin: 10px 10px 15px 10px;
+}
+
+input{
+    width:50%;
+    margin: auto;
+    position: relative;
+}
+
+.textContainer div{
+    margin: 10px auto 25px auto;
+    width: 20%;
+    display: flex;
+}
+
+.GObutton{
+    width:50%;
+    margin: -10px auto 10px auto;
+    display: flex;
+}
+
+.GObutton input{
+    width: 100%;
+}
+
+.leaderboard{
+    position: relative;
+    height:70%;
+    margin: 0 auto;
+    width: 20%;
+    border: 2px solid #44008b;
+    background-color: #ffe4f2;
+    overflow-y: scroll;
+    overflow-wrap: break-word;
+    text-align: center;
+}

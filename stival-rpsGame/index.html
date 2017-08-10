@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Rock, Paper, Scissors!</title>
+
+
+<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAmJhxYM5Q3z4raaKBH2zYQyHKHKFW6P5I",
+    authDomain: "fir-88759.firebaseapp.com",
+    databaseURL: "https://fir-88759.firebaseio.com",
+    projectId: "fir-88759",
+    storageBucket: "",
+    messagingSenderId: "547843364061"
+  };
+  firebase.initializeApp(config);
+</script>
+
+    <!--jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Alike+Angular|Asul|Eczar" rel="stylesheet">
+
+    <!--custom files-->
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!--Add your name-->
+    <h1>Rock! Paper! Scissors!</h1>
+
+    <!--Will be populated with messages-->
+    <div class="reset">
+        <div class="allMessages">
+            
+        </div>
+    </div>
+    
+    <!--For user to input messages-->
+    <div class="userContainer">
+        <form>
+            <div class="textContainer">
+                <div>
+                    <input id="playerName" type="text"> 
+                    <input type="button" onclick="setInit();" value="submit">
+                </div>
+            </div>
+            <div class="GObutton">
+                <input type="button" onclick="updateRock();" value="Rock">
+                <input type="button" onclick="updatePaper();" value="Paper">
+                <input type="button" onclick="updateScissors();" value="Scissors">
+            </div>
+            <div>
+                <div class="GObutton">
+                    <input id="resetButton" onclick="test();" type="button" value="Clear">
+                    <input type="button" onclick="save();" value="Save">
+            </div>
+        </form>
+    </div>
+    <div>
+        <h1>Leaderboard<h2>
+        <div class="leaderboard">
+
+        </div>
+    </div>
+</body>
+</html>

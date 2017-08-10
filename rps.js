@@ -1,6 +1,6 @@
-var choice = ["rock", "paper", "scissors"];
-var playerChoice = choice[0];
-var computerChoice = choice[Math.floor(Math.random() * 3)];
+const choice = ["rock", "paper", "scissors"];
+let playerChoice = choice[0];
+const computerChoice = choice[Math.floor(Math.random() * 3)];
 
 if (computerChoice === playerChoice) {
     console.log("You tied!");
