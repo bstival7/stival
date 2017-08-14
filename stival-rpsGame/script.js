@@ -1,5 +1,5 @@
 //Set database object
-const database = firebase.database().ref();
+const database = firebase.database().ref(); 
 let playerChoice;
 const choice = ["rock", "paper", "scissors"];
 let score = 0;
@@ -20,14 +20,17 @@ function setInit(){
 function updateRock(){
     playerChoice = choice[0];
     updateDB();
+    gif();
 }
 function updateScissors(){
     playerChoice = choice[2];
     updateDB();
+    gif();
 }
 function updatePaper(){
     playerChoice = choice[1];
     updateDB();
+    gif();
 }
 
 function test(){
